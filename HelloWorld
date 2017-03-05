@@ -1,0 +1,30 @@
+public class Main{
+
+public static void main(String[] args) {
+    
+	Scanner reader = new Scanner(System.in);
+    int N = reader.nextInt();
+	int a[N];
+	  for (int j = 0; j < N; j++){
+		
+        a[j]=reader.nextInt;
+		
+	}
+	int n = a.length;
+        int k;
+        for (int m = n; m >= 0; m--) {
+            for (int i = 0; i < n - 1; i++) {
+                k = i + 1;
+                if (a[i] > a[k]) {
+                     int temp;
+					 temp = a[i];
+					 a[i] = array[k];
+					 a[k] = temp;
+                }
+			}
+		}
+    if(a.length/2=0){
+		
+	}
+}
+}
